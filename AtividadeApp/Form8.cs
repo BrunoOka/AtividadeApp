@@ -16,5 +16,13 @@ namespace AtividadeApp
         {
             InitializeComponent();
         }
-    }
-}
+
+        private void btncalcular_Click(object sender, EventArgs e)
+        {
+            double b, a, resultado;
+            b = Convert.ToDouble(txtbase.Text);
+            a = Convert.ToDouble(txtaltura.Text);
+            resultado = b * a;
+            txtresultado.Text = resultado.ToString();
+        }
+

@@ -96,6 +96,7 @@
             btncalcular.TabIndex = 9;
             btncalcular.Text = "Calcular";
             btncalcular.UseVisualStyleBackColor = true;
+            btncalcular.Click += btncalcular_Click;
             // 
             // btnlimpar
             // 
@@ -105,6 +106,7 @@
             btnlimpar.TabIndex = 10;
             btnlimpar.Text = "Limpar";
             btnlimpar.UseVisualStyleBackColor = true;
+            btnlimpar.Click += btnlimpar_Click;
             // 
             // btnvoltar
             // 
@@ -114,6 +116,7 @@
             btnvoltar.TabIndex = 11;
             btnvoltar.Text = "Voltar";
             btnvoltar.UseVisualStyleBackColor = true;
+            btnvoltar.Click += btnvoltar_Click;
             // 
             // frmretangulo
             // 
