@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|solutionrelative:atividadeapp\\form7.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|c:\\users\\bruno\\downloads\\atividadeapp-\\atividadeapp-\\bruno e guilherme (3)\\bruno e guilherme (2)\\bruno e guilherme\\atividadeapp\\atividadeapp\\atividadeapp\\form7.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|solutionrelative:atividadeapp\\form7.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\atividadeapp\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|solutionrelative:atividadeapp\\form6.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -66,11 +70,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form2.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form2.cs",
@@ -84,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form1.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form1.cs",
@@ -98,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Form4.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form4.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form4.cs",
@@ -108,6 +112,19 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T20:38:23.813Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form7.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form7.Designer.cs",
+              "RelativeDocumentMoniker": "AtividadeApp\\Form7.Designer.cs",
+              "ToolTip": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form7.Designer.cs",
+              "RelativeToolTip": "AtividadeApp\\Form7.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T18:17:33.962Z",
               "EditorCaption": ""
             },
             {
@@ -132,7 +149,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Form6.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form6.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form6.cs",
@@ -145,18 +162,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form6.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form6.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form6.cs",
               "ToolTip": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form6.cs [Design]",
               "RelativeToolTip": "AtividadeApp\\Form6.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T00:07:49.764Z"
+              "WhenOpened": "2025-05-17T00:07:49.764Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Form5.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form5.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form5.cs",
@@ -169,7 +187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form3.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form3.cs",
@@ -182,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form2.Designer.cs",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form2.Designer.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form2.Designer.cs",
@@ -194,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form2.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form2.cs",
@@ -205,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form1.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form1.cs",
@@ -216,7 +234,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Form3.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form3.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form3.cs",
@@ -227,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form4.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form4.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form4.cs",
@@ -238,7 +256,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Form5.cs [Design]",
               "DocumentMoniker": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\Form5.cs",
               "RelativeDocumentMoniker": "AtividadeApp\\Form5.cs",
