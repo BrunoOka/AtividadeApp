@@ -35,8 +35,9 @@
             tsmidpr = new ToolStripMenuItem();
             tsmisq3n = new ToolStripMenuItem();
             tmsiarea = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmimedia = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmiar = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -51,7 +52,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -91,6 +92,12 @@
             tmsiarea.Text = "Calculo de área de um círculo";
             tmsiarea.Click += tmsiarea_Click;
             // 
+            // tsmimedia
+            // 
+            tsmimedia.Name = "tsmimedia";
+            tsmimedia.Size = new Size(255, 22);
+            tsmimedia.Text = "Cálculo da média ponderada";
+            // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -98,11 +105,11 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmimedia
+            // tsmiar
             // 
-            tsmimedia.Name = "tsmimedia";
-            tsmimedia.Size = new Size(255, 22);
-            tsmimedia.Text = "Cálculo da média ponderada";
+            tsmiar.Name = "tsmiar";
+            tsmiar.Size = new Size(255, 22);
+            tsmiar.Text = "Cálculo da área de um retãngulo";
             // 
             // frmmenu
             // 
@@ -133,5 +140,6 @@
         private ToolStripMenuItem tmsiarea;
         private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem tsmimedia;
+        private ToolStripMenuItem tsmiar;
     }
 }
