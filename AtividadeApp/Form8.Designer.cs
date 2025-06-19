@@ -30,6 +30,7 @@
         {
             lblbase = new Label();
             lblaltura = new Label();
+            lblresultado = new Label();
             SuspendLayout();
             // 
             // lblbase
@@ -50,11 +51,21 @@
             lblaltura.TabIndex = 1;
             lblaltura.Text = "Altura";
             // 
+            // lblresultado
+            // 
+            lblresultado.AutoSize = true;
+            lblresultado.Location = new Point(95, 157);
+            lblresultado.Name = "lblresultado";
+            lblresultado.Size = new Size(59, 15);
+            lblresultado.TabIndex = 2;
+            lblresultado.Text = "Resultado";
+            // 
             // frmretangulo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblresultado);
             Controls.Add(lblaltura);
             Controls.Add(lblbase);
             Name = "frmretangulo";
@@ -67,5 +78,6 @@
 
         private Label lblbase;
         private Label lblaltura;
+        private Label lblresultado;
     }
 }
