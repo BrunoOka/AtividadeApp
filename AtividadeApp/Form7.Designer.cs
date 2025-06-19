@@ -37,6 +37,7 @@
             txtnota3 = new TextBox();
             txtresultado = new TextBox();
             btncalcular = new Button();
+            btnlimpar = new Button();
             SuspendLayout();
             // 
             // lblnota1
@@ -113,12 +114,22 @@
             btncalcular.Text = "Calcular";
             btncalcular.UseVisualStyleBackColor = true;
             // 
+            // btnlimpar
+            // 
+            btnlimpar.Location = new Point(250, 269);
+            btnlimpar.Name = "btnlimpar";
+            btnlimpar.Size = new Size(75, 23);
+            btnlimpar.TabIndex = 9;
+            btnlimpar.Text = "Limpar";
+            btnlimpar.UseVisualStyleBackColor = true;
+            // 
             // frmmedia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(btnlimpar);
             Controls.Add(btncalcular);
             Controls.Add(txtresultado);
             Controls.Add(txtnota3);
@@ -146,5 +157,6 @@
         private TextBox txtnota3;
         private TextBox txtresultado;
         private Button btncalcular;
+        private Button btnlimpar;
     }
 }
