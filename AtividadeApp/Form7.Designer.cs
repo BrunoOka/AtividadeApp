@@ -34,6 +34,7 @@
             lblresultado = new Label();
             txtnota1 = new TextBox();
             txtnota2 = new TextBox();
+            txtnota3 = new TextBox();
             SuspendLayout();
             // 
             // lblnota1
@@ -86,12 +87,20 @@
             txtnota2.Size = new Size(100, 23);
             txtnota2.TabIndex = 5;
             // 
+            // txtnota3
+            // 
+            txtnota3.Location = new Point(207, 156);
+            txtnota3.Name = "txtnota3";
+            txtnota3.Size = new Size(100, 23);
+            txtnota3.TabIndex = 6;
+            // 
             // frmmedia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(txtnota3);
             Controls.Add(txtnota2);
             Controls.Add(txtnota1);
             Controls.Add(lblresultado);
@@ -113,5 +122,6 @@
         private Label lblresultado;
         private TextBox txtnota1;
         private TextBox txtnota2;
+        private TextBox txtnota3;
     }
 }
