@@ -35,5 +35,12 @@ namespace AtividadeApp
             txtresultado.Clear();
             txtnota1.Focus();
         }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmmenu menu = new frmmenu();
+            menu.Show();
+        }
     }
 }
