@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblnota1 = new Label();
+            lblnota2 = new Label();
             SuspendLayout();
             // 
             // lblnota1
@@ -40,11 +41,21 @@
             lblnota1.TabIndex = 0;
             lblnota1.Text = "Nota 1";
             // 
+            // lblnota2
+            // 
+            lblnota2.AutoSize = true;
+            lblnota2.Location = new Point(95, 113);
+            lblnota2.Name = "lblnota2";
+            lblnota2.Size = new Size(42, 15);
+            lblnota2.TabIndex = 1;
+            lblnota2.Text = "Nota 2";
+            // 
             // frmmedia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblnota2);
             Controls.Add(lblnota1);
             Name = "frmmedia";
             Text = "média ponderada";
@@ -55,5 +66,6 @@
         #endregion
 
         private Label lblnota1;
+        private Label lblnota2;
     }
 }
