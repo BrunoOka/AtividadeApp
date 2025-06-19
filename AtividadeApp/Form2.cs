@@ -63,5 +63,12 @@ namespace AtividadeApp
             frmcircunferencia circunferencia = new frmcircunferencia();
             circunferencia.Show();
         }
+
+        private void tsmimedia_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmmedia media = new frmmedia();
+            media.Show();
+        }
     }
 }

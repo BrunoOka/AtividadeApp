@@ -36,8 +36,8 @@
             tsmisq3n = new ToolStripMenuItem();
             tmsiarea = new ToolStripMenuItem();
             tsmimedia = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmiar = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -97,6 +97,13 @@
             tsmimedia.Name = "tsmimedia";
             tsmimedia.Size = new Size(255, 22);
             tsmimedia.Text = "Cálculo da média ponderada";
+            tsmimedia.Click += tsmimedia_Click;
+            // 
+            // tsmiar
+            // 
+            tsmiar.Name = "tsmiar";
+            tsmiar.Size = new Size(255, 22);
+            tsmiar.Text = "Cálculo da área de um retãngulo";
             // 
             // sairToolStripMenuItem
             // 
@@ -104,12 +111,6 @@
             sairToolStripMenuItem.Size = new Size(38, 20);
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
-            // 
-            // tsmiar
-            // 
-            tsmiar.Name = "tsmiar";
-            tsmiar.Size = new Size(255, 22);
-            tsmiar.Text = "Cálculo da área de um retãngulo";
             // 
             // frmmenu
             // 
