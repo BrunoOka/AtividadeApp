@@ -26,5 +26,14 @@ namespace AtividadeApp
             resultado = (nota1 * 2) + (nota2 * 3) + (nota3 * 5) / 10;
             txtresultado.Text = resultado.ToString();
         }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtnota1.Clear();
+            txtnota2.Clear();
+            txtnota3.Clear();
+            txtresultado.Clear();
+            txtnota1.Focus();
+        }
     }
 }

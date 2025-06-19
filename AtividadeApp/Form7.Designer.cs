@@ -124,6 +124,7 @@
             btnlimpar.TabIndex = 9;
             btnlimpar.Text = "Limpar";
             btnlimpar.UseVisualStyleBackColor = true;
+            btnlimpar.Click += btnlimpar_Click;
             // 
             // btnvoltar
             // 
