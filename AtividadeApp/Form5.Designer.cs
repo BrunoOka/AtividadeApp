@@ -134,7 +134,9 @@
             Controls.Add(txtvalorreais);
             Controls.Add(lblreal);
             Name = "frmrealdolar";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Valor em real convertido para dólar";
+            Load += frmrealdolar_Load;
             ResumeLayout(false);
             PerformLayout();
         }

@@ -78,3 +78,4 @@ C:\Users\bruno\Downloads\Atividadeapp-\Atividadeapp-\Bruno e Guilherme (3)\Bruno
 C:\Users\bruno\Downloads\Atividadeapp-\Atividadeapp-\Bruno e Guilherme (3)\Bruno e Guilherme (2)\Bruno e Guilherme\AtividadeApp\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.pdb
 C:\Users\bruno\Downloads\Atividadeapp-\Atividadeapp-\Bruno e Guilherme (3)\Bruno e Guilherme (2)\Bruno e Guilherme\AtividadeApp\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.genruntimeconfig.cache
 C:\Users\bruno\Downloads\Atividadeapp-\Atividadeapp-\Bruno e Guilherme (3)\Bruno e Guilherme (2)\Bruno e Guilherme\AtividadeApp\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\ref\AtividadeApp.dll
+C:\Users\bruno\Downloads\Atividadeapp-\Atividadeapp-\Bruno e Guilherme (3)\Bruno e Guilherme (2)\Bruno e Guilherme\AtividadeApp\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.frmretangulo.resources

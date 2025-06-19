@@ -42,5 +42,10 @@ namespace AtividadeApp
             frmmenu menu = new frmmenu();
             menu.Show();
         }
+
+        private void frmrealdolar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
