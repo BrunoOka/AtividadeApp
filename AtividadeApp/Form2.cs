@@ -70,5 +70,12 @@ namespace AtividadeApp
             frmmedia media = new frmmedia();
             media.Show();
         }
+
+        private void tsmiar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmretangulo retangulo = new frmretangulo();
+            retangulo.Show();
+        }
     }
 }

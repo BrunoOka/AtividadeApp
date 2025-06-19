@@ -104,6 +104,7 @@
             tsmiar.Name = "tsmiar";
             tsmiar.Size = new Size(255, 22);
             tsmiar.Text = "Cálculo da área de um retãngulo";
+            tsmiar.Click += tsmiar_Click;
             // 
             // sairToolStripMenuItem
             // 
