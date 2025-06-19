@@ -31,6 +31,7 @@
             lblnota1 = new Label();
             lblnota2 = new Label();
             lblnota3 = new Label();
+            lblresultado = new Label();
             SuspendLayout();
             // 
             // lblnota1
@@ -60,11 +61,21 @@
             lblnota3.TabIndex = 2;
             lblnota3.Text = "Nota 3";
             // 
+            // lblresultado
+            // 
+            lblresultado.AutoSize = true;
+            lblresultado.Location = new Point(95, 208);
+            lblresultado.Name = "lblresultado";
+            lblresultado.Size = new Size(59, 15);
+            lblresultado.TabIndex = 3;
+            lblresultado.Text = "Resultado";
+            // 
             // frmmedia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblresultado);
             Controls.Add(lblnota3);
             Controls.Add(lblnota2);
             Controls.Add(lblnota1);
@@ -79,5 +90,6 @@
         private Label lblnota1;
         private Label lblnota2;
         private Label lblnota3;
+        private Label lblresultado;
     }
 }
