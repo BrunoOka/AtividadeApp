@@ -36,6 +36,7 @@
             txtresultado = new TextBox();
             btncalcular = new Button();
             btnlimpar = new Button();
+            btnvoltar = new Button();
             SuspendLayout();
             // 
             // lblbase
@@ -105,12 +106,22 @@
             btnlimpar.Text = "Limpar";
             btnlimpar.UseVisualStyleBackColor = true;
             // 
+            // btnvoltar
+            // 
+            btnvoltar.Location = new Point(444, 223);
+            btnvoltar.Name = "btnvoltar";
+            btnvoltar.Size = new Size(75, 23);
+            btnvoltar.TabIndex = 11;
+            btnvoltar.Text = "Voltar";
+            btnvoltar.UseVisualStyleBackColor = true;
+            // 
             // frmretangulo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(btnvoltar);
             Controls.Add(btnlimpar);
             Controls.Add(btncalcular);
             Controls.Add(txtresultado);
@@ -136,5 +147,6 @@
         private TextBox txtresultado;
         private Button btncalcular;
         private Button btnlimpar;
+        private Button btnvoltar;
     }
 }
