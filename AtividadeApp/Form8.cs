@@ -26,3 +26,19 @@ namespace AtividadeApp
             txtresultado.Text = resultado.ToString();
         }
 
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtbase.Clear();
+            txtaltura.Clear();
+            txtresultado.Clear();
+            txtbase.Focus();
+        }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmmenu menu = new frmmenu();
+            menu.Show();
+        }
+    }
+}
