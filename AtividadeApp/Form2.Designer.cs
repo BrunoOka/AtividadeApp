@@ -36,6 +36,7 @@
             tsmisq3n = new ToolStripMenuItem();
             tmsiarea = new ToolStripMenuItem();
             sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmimedia = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -97,6 +98,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
+            // tsmimedia
+            // 
+            tsmimedia.Name = "tsmimedia";
+            tsmimedia.Size = new Size(255, 22);
+            tsmimedia.Text = "Cálculo da média ponderada";
+            // 
             // frmmenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -125,5 +132,6 @@
         private ToolStripMenuItem tsmisq3n;
         private ToolStripMenuItem tmsiarea;
         private ToolStripMenuItem sairToolStripMenuItem;
+        private ToolStripMenuItem tsmimedia;
     }
 }
