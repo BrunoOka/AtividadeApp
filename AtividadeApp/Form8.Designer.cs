@@ -33,6 +33,7 @@
             lblresultado = new Label();
             txtbase = new TextBox();
             txtaltura = new TextBox();
+            txtresultado = new TextBox();
             SuspendLayout();
             // 
             // lblbase
@@ -76,17 +77,28 @@
             txtaltura.Size = new Size(100, 23);
             txtaltura.TabIndex = 4;
             // 
+            // txtresultado
+            // 
+            txtresultado.Location = new Point(199, 154);
+            txtresultado.Name = "txtresultado";
+            txtresultado.ReadOnly = true;
+            txtresultado.Size = new Size(100, 23);
+            txtresultado.TabIndex = 5;
+            // 
             // frmretangulo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(txtresultado);
             Controls.Add(txtaltura);
             Controls.Add(txtbase);
             Controls.Add(lblresultado);
             Controls.Add(lblaltura);
             Controls.Add(lblbase);
             Name = "frmretangulo";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Área do retangulo";
             ResumeLayout(false);
             PerformLayout();
@@ -99,5 +111,6 @@
         private Label lblresultado;
         private TextBox txtbase;
         private TextBox txtaltura;
+        private TextBox txtresultado;
     }
 }
