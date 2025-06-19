@@ -30,6 +30,7 @@
         {
             lblnota1 = new Label();
             lblnota2 = new Label();
+            lblnota3 = new Label();
             SuspendLayout();
             // 
             // lblnota1
@@ -50,11 +51,21 @@
             lblnota2.TabIndex = 1;
             lblnota2.Text = "Nota 2";
             // 
+            // lblnota3
+            // 
+            lblnota3.AutoSize = true;
+            lblnota3.Location = new Point(95, 156);
+            lblnota3.Name = "lblnota3";
+            lblnota3.Size = new Size(42, 15);
+            lblnota3.TabIndex = 2;
+            lblnota3.Text = "Nota 3";
+            // 
             // frmmedia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblnota3);
             Controls.Add(lblnota2);
             Controls.Add(lblnota1);
             Name = "frmmedia";
@@ -67,5 +78,6 @@
 
         private Label lblnota1;
         private Label lblnota2;
+        private Label lblnota3;
     }
 }
