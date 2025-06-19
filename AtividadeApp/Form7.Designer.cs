@@ -33,6 +33,7 @@
             lblnota3 = new Label();
             lblresultado = new Label();
             txtnota1 = new TextBox();
+            txtnota2 = new TextBox();
             SuspendLayout();
             // 
             // lblnota1
@@ -78,17 +79,27 @@
             txtnota1.Size = new Size(100, 23);
             txtnota1.TabIndex = 4;
             // 
+            // txtnota2
+            // 
+            txtnota2.Location = new Point(207, 110);
+            txtnota2.Name = "txtnota2";
+            txtnota2.Size = new Size(100, 23);
+            txtnota2.TabIndex = 5;
+            // 
             // frmmedia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            ControlBox = false;
+            Controls.Add(txtnota2);
             Controls.Add(txtnota1);
             Controls.Add(lblresultado);
             Controls.Add(lblnota3);
             Controls.Add(lblnota2);
             Controls.Add(lblnota1);
             Name = "frmmedia";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "média ponderada";
             ResumeLayout(false);
             PerformLayout();
@@ -101,5 +112,6 @@
         private Label lblnota3;
         private Label lblresultado;
         private TextBox txtnota1;
+        private TextBox txtnota2;
     }
 }
