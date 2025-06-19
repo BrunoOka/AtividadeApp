@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblbase = new Label();
+            lblaltura = new Label();
             SuspendLayout();
             // 
             // lblbase
@@ -40,11 +41,21 @@
             lblbase.TabIndex = 0;
             lblbase.Text = "Base";
             // 
+            // lblaltura
+            // 
+            lblaltura.AutoSize = true;
+            lblaltura.Location = new Point(95, 112);
+            lblaltura.Name = "lblaltura";
+            lblaltura.Size = new Size(39, 15);
+            lblaltura.TabIndex = 1;
+            lblaltura.Text = "Altura";
+            // 
             // frmretangulo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblaltura);
             Controls.Add(lblbase);
             Name = "frmretangulo";
             Text = "Área do retangulo";
@@ -55,5 +66,6 @@
         #endregion
 
         private Label lblbase;
+        private Label lblaltura;
     }
 }
