@@ -147,6 +147,14 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form9.Designer.cs",
@@ -156,16 +164,7 @@
               "RelativeToolTip": "AtividadeApp\\Form9.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T19:53:45.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-08-21T19:53:45.976Z"
             },
             {
               "$type": "Document",
@@ -201,8 +200,7 @@
               "ToolTip": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\Form9.cs [Design]",
               "RelativeToolTip": "AtividadeApp\\Form9.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T16:09:30.189Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-21T16:09:30.189Z"
             },
             {
               "$type": "Document",
@@ -226,8 +224,7 @@
               "ToolTip": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\Form8.cs [Design]",
               "RelativeToolTip": "AtividadeApp\\Form8.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:47:15.28Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-19T18:47:15.28Z"
             },
             {
               "$type": "Document",
@@ -239,8 +236,7 @@
               "RelativeToolTip": "AtividadeApp\\Form8.Designer.cs",
               "ViewState": "AgIAAGgAAAAAAAAAAAAAwHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:46:40.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T18:46:40.3Z"
             },
             {
               "$type": "Document",
