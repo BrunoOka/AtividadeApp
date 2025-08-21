@@ -46,7 +46,14 @@ namespace AtividadeApp
 
             rendatot = rdp + rdg + rda + rdc;
 
-            txtrt.Text = rendatot.ToString();
+            txtrenda.Text = rendatot.ToString();
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txttotpub.Clear();
+            txtrenda.Clear();
+            txttotpub.Focus();
         }
     }
 }
