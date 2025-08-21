@@ -98,6 +98,7 @@
             btnvoltar.TabIndex = 6;
             btnvoltar.Text = "Voltar";
             btnvoltar.UseVisualStyleBackColor = true;
+            btnvoltar.Click += btnvoltar_Click;
             // 
             // frmcvl
             // 
