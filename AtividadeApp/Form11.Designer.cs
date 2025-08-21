@@ -30,6 +30,7 @@
         {
             lblnome = new Label();
             lblsexo = new Label();
+            lblidade = new Label();
             SuspendLayout();
             // 
             // lblnome
@@ -44,11 +45,20 @@
             // lblsexo
             // 
             lblsexo.AutoSize = true;
-            lblsexo.Location = new Point(97, 98);
+            lblsexo.Location = new Point(95, 96);
             lblsexo.Name = "lblsexo";
             lblsexo.Size = new Size(32, 15);
             lblsexo.TabIndex = 1;
             lblsexo.Text = "Sexo";
+            // 
+            // lblidade
+            // 
+            lblidade.AutoSize = true;
+            lblidade.Location = new Point(95, 125);
+            lblidade.Name = "lblidade";
+            lblidade.Size = new Size(36, 15);
+            lblidade.TabIndex = 2;
+            lblidade.Text = "Idade";
             // 
             // frmabono
             // 
@@ -56,6 +66,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(lblidade);
             Controls.Add(lblsexo);
             Controls.Add(lblnome);
             Name = "frmabono";
@@ -69,5 +80,6 @@
 
         private Label lblnome;
         private Label lblsexo;
+        private Label lblidade;
     }
 }
