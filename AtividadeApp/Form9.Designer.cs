@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lbltotpub = new Label();
+            lblrenda = new Label();
             SuspendLayout();
             // 
             // lbltotpub
@@ -40,11 +41,21 @@
             lbltotpub.TabIndex = 0;
             lbltotpub.Text = "total publico";
             // 
+            // lblrenda
+            // 
+            lblrenda.AutoSize = true;
+            lblrenda.Location = new Point(95, 116);
+            lblrenda.Name = "lblrenda";
+            lblrenda.Size = new Size(37, 15);
+            lblrenda.TabIndex = 1;
+            lblrenda.Text = "renda";
+            // 
             // frmrtj
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblrenda);
             Controls.Add(lbltotpub);
             Name = "frmrtj";
             Text = "Renda total jogo";
@@ -55,5 +66,6 @@
         #endregion
 
         private Label lbltotpub;
+        private Label lblrenda;
     }
 }
