@@ -152,6 +152,7 @@
             btnvoltar.TabIndex = 12;
             btnvoltar.Text = "Voltar";
             btnvoltar.UseVisualStyleBackColor = true;
+            btnvoltar.Click += btnvoltar_Click;
             // 
             // frmabono
             // 
