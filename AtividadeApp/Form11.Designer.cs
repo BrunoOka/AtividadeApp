@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lblnome = new Label();
+            lblsexo = new Label();
             SuspendLayout();
             // 
             // lblnome
@@ -40,12 +41,22 @@
             lblnome.TabIndex = 0;
             lblnome.Text = "Nome";
             // 
+            // lblsexo
+            // 
+            lblsexo.AutoSize = true;
+            lblsexo.Location = new Point(97, 98);
+            lblsexo.Name = "lblsexo";
+            lblsexo.Size = new Size(32, 15);
+            lblsexo.TabIndex = 1;
+            lblsexo.Text = "Sexo";
+            // 
             // frmabono
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(lblsexo);
             Controls.Add(lblnome);
             Name = "frmabono";
             StartPosition = FormStartPosition.CenterScreen;
@@ -57,5 +68,6 @@
         #endregion
 
         private Label lblnome;
+        private Label lblsexo;
     }
 }
