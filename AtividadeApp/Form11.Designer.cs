@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            lblnome = new Label();
             SuspendLayout();
+            // 
+            // lblnome
+            // 
+            lblnome.AutoSize = true;
+            lblnome.Location = new Point(95, 65);
+            lblnome.Name = "lblnome";
+            lblnome.Size = new Size(40, 15);
+            lblnome.TabIndex = 0;
+            lblnome.Text = "Nome";
             // 
             // frmabono
             // 
@@ -36,12 +46,16 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(lblnome);
             Name = "frmabono";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculo de abono";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lblnome;
     }
 }
