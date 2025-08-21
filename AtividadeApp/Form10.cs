@@ -21,15 +21,23 @@ namespace AtividadeApp
         {
             double l, c;
             l = Convert.ToDouble(txtlivros.Text);
-            if(l>10)
-            { c = l * 8;
-              txtresultado.Text= c.ToString();
+            if (l > 10)
+            {
+                c = l * 8;
+                txtresultado.Text = c.ToString();
             }
             else
             {
-              c = l * 12;
-              txtresultado.Text = c.ToString();
+                c = l * 12;
+                txtresultado.Text = c.ToString();
             }
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtlivros.Clear();
+            txtresultado.Clear();
+            txtlivros.Focus();
         }
     }
 }
