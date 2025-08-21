@@ -38,6 +38,7 @@
             tsmimedia = new ToolStripMenuItem();
             tsmiar = new ToolStripMenuItem();
             sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmirtj = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -52,7 +53,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -113,6 +114,13 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
+            // tsmirtj
+            // 
+            tsmirtj.Name = "tsmirtj";
+            tsmirtj.Size = new Size(255, 22);
+            tsmirtj.Text = "Renda total jogo";
+            tsmirtj.Click += tsmirtj_Click;
+            // 
             // frmmenu
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -143,5 +151,6 @@
         private ToolStripMenuItem sairToolStripMenuItem;
         private ToolStripMenuItem tsmimedia;
         private ToolStripMenuItem tsmiar;
+        private ToolStripMenuItem tsmirtj;
     }
 }

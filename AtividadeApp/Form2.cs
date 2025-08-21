@@ -77,5 +77,12 @@ namespace AtividadeApp
             frmretangulo retangulo = new frmretangulo();
             retangulo.Show();
         }
+
+        private void tsmirtj_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmrtj rtj = new frmrtj();
+            rtj.Show();
+        }
     }
 }
