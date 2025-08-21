@@ -37,8 +37,9 @@
             tmsiarea = new ToolStripMenuItem();
             tsmimedia = new ToolStripMenuItem();
             tsmiar = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmirtj = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmicvl = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -53,7 +54,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -107,6 +108,13 @@
             tsmiar.Text = "Cálculo da área de um retãngulo";
             tsmiar.Click += tsmiar_Click;
             // 
+            // tsmirtj
+            // 
+            tsmirtj.Name = "tsmirtj";
+            tsmirtj.Size = new Size(255, 22);
+            tsmirtj.Text = "Renda total jogo";
+            tsmirtj.Click += tsmirtj_Click;
+            // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -114,12 +122,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmirtj
+            // tsmicvl
             // 
-            tsmirtj.Name = "tsmirtj";
-            tsmirtj.Size = new Size(255, 22);
-            tsmirtj.Text = "Renda total jogo";
-            tsmirtj.Click += tsmirtj_Click;
+            tsmicvl.Name = "tsmicvl";
+            tsmicvl.Size = new Size(255, 22);
+            tsmicvl.Text = "Calculo venda de livro";
+            tsmicvl.Click += tsmicvl_Click;
             // 
             // frmmenu
             // 
@@ -152,5 +160,6 @@
         private ToolStripMenuItem tsmimedia;
         private ToolStripMenuItem tsmiar;
         private ToolStripMenuItem tsmirtj;
+        private ToolStripMenuItem tsmicvl;
     }
 }

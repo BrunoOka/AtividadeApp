@@ -104,3 +104,4 @@ C:\Users\bruno\Downloads\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\refi
 C:\Users\bruno\Downloads\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.pdb
 C:\Users\bruno\Downloads\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.genruntimeconfig.cache
 C:\Users\bruno\Downloads\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\ref\AtividadeApp.dll
+C:\Users\bruno\Downloads\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.frmcvl.resources

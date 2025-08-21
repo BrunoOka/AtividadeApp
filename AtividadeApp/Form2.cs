@@ -84,5 +84,12 @@ namespace AtividadeApp
             frmrtj rtj = new frmrtj();
             rtj.Show();
         }
+
+        private void tsmicvl_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmcvl cvl = new frmcvl();
+            cvl.Show();
+        }
     }
 }
