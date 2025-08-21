@@ -98,5 +98,12 @@ namespace AtividadeApp
             frmabono abono = new frmabono();
             abono.Show();
         }
+
+        private void tsmiccp_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmccp ccp = new frmccp();
+            ccp.Show();
+        }
     }
 }

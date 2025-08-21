@@ -54,5 +54,10 @@ namespace AtividadeApp
             frmmenu menu = new frmmenu();
             menu.Show();
         }
+
+        private void lblnome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -51,6 +51,7 @@
             lblnome.Size = new Size(40, 15);
             lblnome.TabIndex = 0;
             lblnome.Text = "Nome";
+            lblnome.Click += lblnome_Click;
             // 
             // lblsexo
             // 
