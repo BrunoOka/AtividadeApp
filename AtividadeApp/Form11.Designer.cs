@@ -35,6 +35,7 @@
             lblsa = new Label();
             txtnome = new TextBox();
             txtsexo = new TextBox();
+            txtidade = new TextBox();
             SuspendLayout();
             // 
             // lblnome
@@ -96,12 +97,20 @@
             txtsexo.Size = new Size(100, 23);
             txtsexo.TabIndex = 6;
             // 
+            // txtidade
+            // 
+            txtidade.Location = new Point(189, 117);
+            txtidade.Name = "txtidade";
+            txtidade.Size = new Size(100, 23);
+            txtidade.TabIndex = 7;
+            // 
             // frmabono
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(txtidade);
             Controls.Add(txtsexo);
             Controls.Add(txtnome);
             Controls.Add(lblsa);
@@ -125,5 +134,6 @@
         private Label lblsa;
         private TextBox txtnome;
         private TextBox txtsexo;
+        private TextBox txtidade;
     }
 }
