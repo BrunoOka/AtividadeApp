@@ -32,6 +32,7 @@
             lblvp = new Label();
             txtlivros = new TextBox();
             txtresultado = new TextBox();
+            btncalcular = new Button();
             SuspendLayout();
             // 
             // lbllivro
@@ -66,11 +67,21 @@
             txtresultado.Size = new Size(100, 23);
             txtresultado.TabIndex = 3;
             // 
+            // btncalcular
+            // 
+            btncalcular.Location = new Point(95, 190);
+            btncalcular.Name = "btncalcular";
+            btncalcular.Size = new Size(75, 23);
+            btncalcular.TabIndex = 4;
+            btncalcular.Text = "calcular";
+            btncalcular.UseVisualStyleBackColor = true;
+            // 
             // frmcvl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btncalcular);
             Controls.Add(txtresultado);
             Controls.Add(txtlivros);
             Controls.Add(lblvp);
@@ -88,5 +99,6 @@
         private Label lblvp;
         private TextBox txtlivros;
         private TextBox txtresultado;
+        private Button btncalcular;
     }
 }
