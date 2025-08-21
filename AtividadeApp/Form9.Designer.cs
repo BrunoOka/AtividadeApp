@@ -32,6 +32,9 @@
             lblrenda = new Label();
             txttotpub = new TextBox();
             txtrenda = new TextBox();
+            btncalcular = new Button();
+            btnlimpar = new Button();
+            btnvoltar = new Button();
             SuspendLayout();
             // 
             // lbltotpub
@@ -63,19 +66,51 @@
             // 
             txtrenda.Location = new Point(208, 108);
             txtrenda.Name = "txtrenda";
+            txtrenda.ReadOnly = true;
             txtrenda.Size = new Size(100, 23);
             txtrenda.TabIndex = 3;
+            // 
+            // btncalcular
+            // 
+            btncalcular.Location = new Point(95, 189);
+            btncalcular.Name = "btncalcular";
+            btncalcular.Size = new Size(75, 23);
+            btncalcular.TabIndex = 4;
+            btncalcular.Text = "calcular";
+            btncalcular.UseVisualStyleBackColor = true;
+            // 
+            // btnlimpar
+            // 
+            btnlimpar.Location = new Point(233, 189);
+            btnlimpar.Name = "btnlimpar";
+            btnlimpar.Size = new Size(75, 23);
+            btnlimpar.TabIndex = 5;
+            btnlimpar.Text = "limpar";
+            btnlimpar.UseVisualStyleBackColor = true;
+            // 
+            // btnvoltar
+            // 
+            btnvoltar.Location = new Point(371, 189);
+            btnvoltar.Name = "btnvoltar";
+            btnvoltar.Size = new Size(75, 23);
+            btnvoltar.TabIndex = 6;
+            btnvoltar.Text = "voltar";
+            btnvoltar.UseVisualStyleBackColor = true;
             // 
             // frmrtj
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnvoltar);
+            Controls.Add(btnlimpar);
+            Controls.Add(btncalcular);
             Controls.Add(txtrenda);
             Controls.Add(txttotpub);
             Controls.Add(lblrenda);
             Controls.Add(lbltotpub);
             Name = "frmrtj";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Renda total jogo";
             ResumeLayout(false);
             PerformLayout();
@@ -87,5 +122,8 @@
         private Label lblrenda;
         private TextBox txttotpub;
         private TextBox txtrenda;
+        private Button btncalcular;
+        private Button btnlimpar;
+        private Button btnvoltar;
     }
 }
