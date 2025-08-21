@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {}
+    "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {
+    "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
+        "projectUniqueName": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
         "projectName": "AtividadeApp",
-        "projectPath": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
+        "projectPath": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
         "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\Downloads\\Atividadeapp-\\Atividadeapp-\\Bruno e Guilherme (3)\\Bruno e Guilherme (2)\\Bruno e Guilherme\\AtividadeApp\\AtividadeApp\\AtividadeApp\\obj\\",
+        "outputPath": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
