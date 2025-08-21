@@ -78,6 +78,7 @@
             btncalcular.TabIndex = 4;
             btncalcular.Text = "Calcular";
             btncalcular.UseVisualStyleBackColor = true;
+            btncalcular.Click += btncalcular_Click;
             // 
             // btnlimpar
             // 

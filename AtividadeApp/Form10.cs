@@ -16,5 +16,20 @@ namespace AtividadeApp
         {
             InitializeComponent();
         }
+
+        private void btncalcular_Click(object sender, EventArgs e)
+        {
+            double l, c;
+            l = Convert.ToDouble(txtlivros.Text);
+            if(l>10)
+            { c = l * 8;
+              txtresultado.Text= c.ToString();
+            }
+            else
+            {
+              c = l * 12;
+              txtresultado.Text = c.ToString();
+            }
+        }
     }
 }
