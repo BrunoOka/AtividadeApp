@@ -31,6 +31,7 @@
             lblnome = new Label();
             lblsexo = new Label();
             lblidade = new Label();
+            lblsalario = new Label();
             SuspendLayout();
             // 
             // lblnome
@@ -60,12 +61,22 @@
             lblidade.TabIndex = 2;
             lblidade.Text = "Idade";
             // 
+            // lblsalario
+            // 
+            lblsalario.AutoSize = true;
+            lblsalario.Location = new Point(95, 160);
+            lblsalario.Name = "lblsalario";
+            lblsalario.Size = new Size(42, 15);
+            lblsalario.TabIndex = 3;
+            lblsalario.Text = "Salario";
+            // 
             // frmabono
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(lblsalario);
             Controls.Add(lblidade);
             Controls.Add(lblsexo);
             Controls.Add(lblnome);
@@ -81,5 +92,6 @@
         private Label lblnome;
         private Label lblsexo;
         private Label lblidade;
+        private Label lblsalario;
     }
 }
