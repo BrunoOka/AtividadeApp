@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|C:\\Users\\bruno\\Downloads\\AtividadeApp\\atividadeapp\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|c:\\users\\bruno\\downloads\\atividadeapp\\atividadeapp\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B76D3312-2F3F-49C4-B802-DCB381D4E82F}|AtividadeApp\\AtividadeApp.csproj|solutionrelative:atividadeapp\\form10.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -184,8 +184,7 @@
               "ToolTip": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\Form9.cs [Design]",
               "RelativeToolTip": "AtividadeApp\\Form9.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T16:09:30.189Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-08-21T16:09:30.189Z"
             },
             {
               "$type": "Document",
@@ -232,8 +231,7 @@
               "ToolTip": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\Form7.cs [Design]",
               "RelativeToolTip": "AtividadeApp\\Form7.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:12:29.276Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-19T18:12:29.276Z"
             },
             {
               "$type": "Document",
@@ -257,8 +255,7 @@
               "RelativeToolTip": "AtividadeApp\\Form7.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-19T18:17:33.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T18:17:33.962Z"
             },
             {
               "$type": "Document",
@@ -353,8 +350,7 @@
               "ToolTip": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\Form3.cs [Design]",
               "RelativeToolTip": "AtividadeApp\\Form3.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T12:19:51.212Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-08T12:19:51.212Z"
             },
             {
               "$type": "Document",

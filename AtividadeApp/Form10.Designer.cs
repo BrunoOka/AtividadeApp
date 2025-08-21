@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             lbllivro = new Label();
+            lblvp = new Label();
             SuspendLayout();
             // 
             // lbllivro
@@ -40,11 +41,21 @@
             lbllivro.TabIndex = 0;
             lbllivro.Text = "Livros";
             // 
+            // lblvp
+            // 
+            lblvp.AutoSize = true;
+            lblvp.Location = new Point(95, 111);
+            lblvp.Name = "lblvp";
+            lblvp.Size = new Size(90, 15);
+            lblvp.TabIndex = 1;
+            lblvp.Text = "Valor a ser pago";
+            // 
             // frmcvl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblvp);
             Controls.Add(lbllivro);
             Name = "frmcvl";
             StartPosition = FormStartPosition.CenterScreen;
@@ -56,5 +67,6 @@
         #endregion
 
         private Label lbllivro;
+        private Label lblvp;
     }
 }
