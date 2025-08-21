@@ -38,8 +38,9 @@
             tsmimedia = new ToolStripMenuItem();
             tsmiar = new ToolStripMenuItem();
             tsmirtj = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmicvl = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmiabono = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -54,7 +55,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -115,6 +116,13 @@
             tsmirtj.Text = "Renda total jogo";
             tsmirtj.Click += tsmirtj_Click;
             // 
+            // tsmicvl
+            // 
+            tsmicvl.Name = "tsmicvl";
+            tsmicvl.Size = new Size(255, 22);
+            tsmicvl.Text = "Calculo venda de livro";
+            tsmicvl.Click += tsmicvl_Click;
+            // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -122,12 +130,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmicvl
+            // tsmiabono
             // 
-            tsmicvl.Name = "tsmicvl";
-            tsmicvl.Size = new Size(255, 22);
-            tsmicvl.Text = "Calculo venda de livro";
-            tsmicvl.Click += tsmicvl_Click;
+            tsmiabono.Name = "tsmiabono";
+            tsmiabono.Size = new Size(255, 22);
+            tsmiabono.Text = "Calculo de abono";
+            tsmiabono.Click += tsmiabono_Click;
             // 
             // frmmenu
             // 
@@ -161,5 +169,6 @@
         private ToolStripMenuItem tsmiar;
         private ToolStripMenuItem tsmirtj;
         private ToolStripMenuItem tsmicvl;
+        private ToolStripMenuItem tsmiabono;
     }
 }

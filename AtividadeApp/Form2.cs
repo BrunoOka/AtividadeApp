@@ -91,5 +91,12 @@ namespace AtividadeApp
             frmcvl cvl = new frmcvl();
             cvl.Show();
         }
+
+        private void tsmiabono_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmabono abono = new frmabono();
+            abono.Show();
+        }
     }
 }
