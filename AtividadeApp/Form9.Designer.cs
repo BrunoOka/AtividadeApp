@@ -30,6 +30,7 @@
         {
             lbltotpub = new Label();
             lblrenda = new Label();
+            txttotpub = new TextBox();
             SuspendLayout();
             // 
             // lbltotpub
@@ -50,11 +51,19 @@
             lblrenda.TabIndex = 1;
             lblrenda.Text = "renda";
             // 
+            // txttotpub
+            // 
+            txttotpub.Location = new Point(208, 57);
+            txttotpub.Name = "txttotpub";
+            txttotpub.Size = new Size(100, 23);
+            txttotpub.TabIndex = 2;
+            // 
             // frmrtj
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txttotpub);
             Controls.Add(lblrenda);
             Controls.Add(lbltotpub);
             Name = "frmrtj";
@@ -67,5 +76,6 @@
 
         private Label lbltotpub;
         private Label lblrenda;
+        private TextBox txttotpub;
     }
 }
