@@ -31,6 +31,7 @@
             lbllivro = new Label();
             lblvp = new Label();
             txtlivros = new TextBox();
+            txtresultado = new TextBox();
             SuspendLayout();
             // 
             // lbllivro
@@ -58,11 +59,19 @@
             txtlivros.Size = new Size(100, 23);
             txtlivros.TabIndex = 2;
             // 
+            // txtresultado
+            // 
+            txtresultado.Location = new Point(237, 103);
+            txtresultado.Name = "txtresultado";
+            txtresultado.Size = new Size(100, 23);
+            txtresultado.TabIndex = 3;
+            // 
             // frmcvl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(txtresultado);
             Controls.Add(txtlivros);
             Controls.Add(lblvp);
             Controls.Add(lbllivro);
@@ -78,5 +87,6 @@
         private Label lbllivro;
         private Label lblvp;
         private TextBox txtlivros;
+        private TextBox txtresultado;
     }
 }
