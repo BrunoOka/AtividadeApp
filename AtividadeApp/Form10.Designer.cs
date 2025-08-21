@@ -28,19 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            lbllivro = new Label();
             SuspendLayout();
+            // 
+            // lbllivro
+            // 
+            lbllivro.AutoSize = true;
+            lbllivro.Location = new Point(95, 65);
+            lbllivro.Name = "lbllivro";
+            lbllivro.Size = new Size(38, 15);
+            lbllivro.TabIndex = 0;
+            lbllivro.Text = "Livros";
             // 
             // frmcvl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lbllivro);
             Name = "frmcvl";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Calculo venda livro";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Label lbllivro;
     }
 }
