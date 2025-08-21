@@ -32,6 +32,7 @@
             lblsexo = new Label();
             lblidade = new Label();
             lblsalario = new Label();
+            lblsa = new Label();
             SuspendLayout();
             // 
             // lblnome
@@ -70,12 +71,22 @@
             lblsalario.TabIndex = 3;
             lblsalario.Text = "Salario";
             // 
+            // lblsa
+            // 
+            lblsa.AutoSize = true;
+            lblsa.Location = new Point(95, 193);
+            lblsa.Name = "lblsa";
+            lblsa.Size = new Size(92, 15);
+            lblsa.TabIndex = 4;
+            lblsa.Text = "Salario + Abono";
+            // 
             // frmabono
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(lblsa);
             Controls.Add(lblsalario);
             Controls.Add(lblidade);
             Controls.Add(lblsexo);
@@ -93,5 +104,6 @@
         private Label lblsexo;
         private Label lblidade;
         private Label lblsalario;
+        private Label lblsa;
     }
 }
