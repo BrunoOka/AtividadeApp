@@ -120,6 +120,7 @@
             // 
             txtresult.Location = new Point(189, 185);
             txtresult.Name = "txtresult";
+            txtresult.ReadOnly = true;
             txtresult.Size = new Size(100, 23);
             txtresult.TabIndex = 9;
             // 
@@ -141,6 +142,7 @@
             btnlimpar.TabIndex = 11;
             btnlimpar.Text = "Limpar";
             btnlimpar.UseVisualStyleBackColor = true;
+            btnlimpar.Click += btnlimpar_Click;
             // 
             // btnvoltar
             // 

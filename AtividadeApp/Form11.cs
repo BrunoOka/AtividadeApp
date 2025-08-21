@@ -37,5 +37,15 @@ namespace AtividadeApp
             c = salario + a;
             txtresult.Text = c.ToString();
         }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtnome.Clear();
+            txtsexo.Clear();
+            txtidade.Clear();
+            txtsalario.Clear();
+            txtresult.Clear();
+            txtnome.Focus();
+        }
     }
 }
