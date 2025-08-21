@@ -34,6 +34,7 @@
             lblsalario = new Label();
             lblsa = new Label();
             txtnome = new TextBox();
+            txtsexo = new TextBox();
             SuspendLayout();
             // 
             // lblnome
@@ -88,12 +89,20 @@
             txtnome.Size = new Size(100, 23);
             txtnome.TabIndex = 5;
             // 
+            // txtsexo
+            // 
+            txtsexo.Location = new Point(189, 88);
+            txtsexo.Name = "txtsexo";
+            txtsexo.Size = new Size(100, 23);
+            txtsexo.TabIndex = 6;
+            // 
             // frmabono
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             ControlBox = false;
+            Controls.Add(txtsexo);
             Controls.Add(txtnome);
             Controls.Add(lblsa);
             Controls.Add(lblsalario);
@@ -115,5 +124,6 @@
         private Label lblsalario;
         private Label lblsa;
         private TextBox txtnome;
+        private TextBox txtsexo;
     }
 }
