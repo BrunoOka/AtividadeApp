@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {}
+    "C:\\Users\\1ds\\Desktop\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {
+    "C:\\Users\\1ds\\Desktop\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
+        "projectUniqueName": "C:\\Users\\1ds\\Desktop\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
         "projectName": "AtividadeApp",
-        "projectPath": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
-        "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bruno\\Downloads\\AtividadeApp\\AtividadeApp\\obj\\",
+        "projectPath": "C:\\Users\\1ds\\Desktop\\AtividadeApp\\AtividadeApp\\AtividadeApp.csproj",
+        "packagesPath": "C:\\Users\\1ds\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\1ds\\Desktop\\AtividadeApp\\AtividadeApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\1ds\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

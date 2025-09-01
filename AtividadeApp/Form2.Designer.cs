@@ -40,8 +40,9 @@
             tsmirtj = new ToolStripMenuItem();
             tsmicvl = new ToolStripMenuItem();
             tsmiabono = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmiccp = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmiimc = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -56,7 +57,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -72,7 +73,7 @@
             // 
             tsmidlg.Name = "tsmidlg";
             tsmidlg.Size = new Size(255, 22);
-            tsmidlg.Text = "Calculo de distância e litros gastos";
+            tsmidlg.Text = "Cálculo de distância e litros gastos";
             tsmidlg.Click += tsmidlg_Click;
             // 
             // tsmidpr
@@ -121,15 +122,22 @@
             // 
             tsmicvl.Name = "tsmicvl";
             tsmicvl.Size = new Size(255, 22);
-            tsmicvl.Text = "Calculo venda de livro";
+            tsmicvl.Text = "Cálculo venda de livro";
             tsmicvl.Click += tsmicvl_Click;
             // 
             // tsmiabono
             // 
             tsmiabono.Name = "tsmiabono";
             tsmiabono.Size = new Size(255, 22);
-            tsmiabono.Text = "Calculo de abono";
+            tsmiabono.Text = "Cálculo de abono";
             tsmiabono.Click += tsmiabono_Click;
+            // 
+            // tsmiccp
+            // 
+            tsmiccp.Name = "tsmiccp";
+            tsmiccp.Size = new Size(255, 22);
+            tsmiccp.Text = "Consulta de codigo de produto";
+            tsmiccp.Click += tsmiccp_Click;
             // 
             // sairToolStripMenuItem
             // 
@@ -138,12 +146,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmiccp
+            // tsmiimc
             // 
-            tsmiccp.Name = "tsmiccp";
-            tsmiccp.Size = new Size(255, 22);
-            tsmiccp.Text = "Consulta de codigo de produito";
-            tsmiccp.Click += tsmiccp_Click;
+            tsmiimc.Name = "tsmiimc";
+            tsmiimc.Size = new Size(255, 22);
+            tsmiimc.Text = "Calculadora de IMC";
+            tsmiimc.Click += tsmiimc_Click;
             // 
             // frmmenu
             // 
@@ -179,5 +187,6 @@
         private ToolStripMenuItem tsmicvl;
         private ToolStripMenuItem tsmiabono;
         private ToolStripMenuItem tsmiccp;
+        private ToolStripMenuItem tsmiimc;
     }
 }

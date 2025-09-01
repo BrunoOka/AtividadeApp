@@ -105,5 +105,12 @@ namespace AtividadeApp
             frmccp ccp = new frmccp();
             ccp.Show();
         }
+
+        private void tsmiimc_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmimc imc = new frmimc();
+            imc.Show();
+        }
     }
 }
