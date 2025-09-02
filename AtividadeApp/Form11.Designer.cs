@@ -58,7 +58,7 @@
             lblsexo.AutoSize = true;
             lblsexo.Location = new Point(95, 96);
             lblsexo.Name = "lblsexo";
-            lblsexo.Size = new Size(32, 15);
+            lblsexo.Size = new Size(31, 15);
             lblsexo.TabIndex = 1;
             lblsexo.Text = "Sexo";
             // 
@@ -83,11 +83,11 @@
             // lblsa
             // 
             lblsa.AutoSize = true;
-            lblsa.Location = new Point(95, 193);
+            lblsa.Location = new Point(26, 193);
             lblsa.Name = "lblsa";
-            lblsa.Size = new Size(92, 15);
+            lblsa.Size = new Size(111, 15);
             lblsa.TabIndex = 4;
-            lblsa.Text = "Salario + Abono";
+            lblsa.Text = "Salario final e nome";
             // 
             // txtnome
             // 
@@ -122,7 +122,7 @@
             txtresult.Location = new Point(189, 185);
             txtresult.Name = "txtresult";
             txtresult.ReadOnly = true;
-            txtresult.Size = new Size(100, 23);
+            txtresult.Size = new Size(198, 23);
             txtresult.TabIndex = 9;
             // 
             // btncalcular

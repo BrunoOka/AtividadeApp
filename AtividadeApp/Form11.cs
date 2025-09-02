@@ -24,6 +24,7 @@ namespace AtividadeApp
 
             idade = Convert.ToDouble(txtidade.Text);
             salario = Convert.ToDouble(txtsalario.Text);
+            nome = txtnome.Text;
             sexo = txtsexo.Text.ToLower();
 
             if ((sexo == "m" || sexo == "masculino") && idade >= 30)
@@ -35,7 +36,7 @@ namespace AtividadeApp
             else if ((sexo == "f" || sexo == "feminino") && idade < 30)
                 a = 150;
             c = salario + a;
-            txtresult.Text = c.ToString();
+            txtresult.Text = "Salário: " + c.ToString() + ". Nome: " + nome + ".";
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)
