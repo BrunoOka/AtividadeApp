@@ -41,8 +41,9 @@
             tsmicvl = new ToolStripMenuItem();
             tsmiabono = new ToolStripMenuItem();
             tsmiccp = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmiimc = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmitabuada = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -57,7 +58,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc, tsmitabuada });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -139,6 +140,13 @@
             tsmiccp.Text = "Consulta de codigo de produto";
             tsmiccp.Click += tsmiccp_Click;
             // 
+            // tsmiimc
+            // 
+            tsmiimc.Name = "tsmiimc";
+            tsmiimc.Size = new Size(255, 22);
+            tsmiimc.Text = "Calculadora de IMC";
+            tsmiimc.Click += tsmiimc_Click;
+            // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -146,12 +154,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmiimc
+            // tsmitabuada
             // 
-            tsmiimc.Name = "tsmiimc";
-            tsmiimc.Size = new Size(255, 22);
-            tsmiimc.Text = "Calculadora de IMC";
-            tsmiimc.Click += tsmiimc_Click;
+            tsmitabuada.Name = "tsmitabuada";
+            tsmitabuada.Size = new Size(255, 22);
+            tsmitabuada.Text = "Tabuada";
+            tsmitabuada.Click += tsmitabuada_Click;
             // 
             // frmmenu
             // 
@@ -188,5 +196,6 @@
         private ToolStripMenuItem tsmiabono;
         private ToolStripMenuItem tsmiccp;
         private ToolStripMenuItem tsmiimc;
+        private ToolStripMenuItem tsmitabuada;
     }
 }
