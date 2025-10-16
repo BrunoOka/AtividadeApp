@@ -42,8 +42,9 @@
             tsmiabono = new ToolStripMenuItem();
             tsmiccp = new ToolStripMenuItem();
             tsmiimc = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmitabuada = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmifc = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc, tsmitabuada });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc, tsmitabuada, tsmifc });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -147,6 +148,13 @@
             tsmiimc.Text = "Calculadora de IMC";
             tsmiimc.Click += tsmiimc_Click;
             // 
+            // tsmitabuada
+            // 
+            tsmitabuada.Name = "tsmitabuada";
+            tsmitabuada.Size = new Size(255, 22);
+            tsmitabuada.Text = "Tabuada";
+            tsmitabuada.Click += tsmitabuada_Click;
+            // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -154,12 +162,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmitabuada
+            // tsmifc
             // 
-            tsmitabuada.Name = "tsmitabuada";
-            tsmitabuada.Size = new Size(255, 22);
-            tsmitabuada.Text = "Tabuada";
-            tsmitabuada.Click += tsmitabuada_Click;
+            tsmifc.Name = "tsmifc";
+            tsmifc.Size = new Size(255, 22);
+            tsmifc.Text = "F para c (10 em 10)";
+            tsmifc.Click += tsmifc_Click;
             // 
             // frmmenu
             // 
@@ -197,5 +205,6 @@
         private ToolStripMenuItem tsmiccp;
         private ToolStripMenuItem tsmiimc;
         private ToolStripMenuItem tsmitabuada;
+        private ToolStripMenuItem tsmifc;
     }
 }

@@ -119,5 +119,12 @@ namespace AtividadeApp
             frmtabuada tabuada = new frmtabuada();
             tabuada.Show();
         }
+
+        private void tsmifc_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmfc fc = new frmfc();
+            fc.Show();
+        }
     }
 }
