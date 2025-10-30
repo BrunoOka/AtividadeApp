@@ -43,8 +43,9 @@
             tsmiccp = new ToolStripMenuItem();
             tsmiimc = new ToolStripMenuItem();
             tsmitabuada = new ToolStripMenuItem();
-            sairToolStripMenuItem = new ToolStripMenuItem();
             tsmifc = new ToolStripMenuItem();
+            sairToolStripMenuItem = new ToolStripMenuItem();
+            tsmiareares = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -59,7 +60,7 @@
             // 
             // programasToolStripMenuItem
             // 
-            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc, tsmitabuada, tsmifc });
+            programasToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { tsmicf, tsmidlg, tsmidpr, tsmisq3n, tmsiarea, tsmimedia, tsmiar, tsmirtj, tsmicvl, tsmiabono, tsmiccp, tsmiimc, tsmitabuada, tsmifc, tsmiareares });
             programasToolStripMenuItem.Name = "programasToolStripMenuItem";
             programasToolStripMenuItem.Size = new Size(76, 20);
             programasToolStripMenuItem.Text = "Programas";
@@ -155,6 +156,13 @@
             tsmitabuada.Text = "Tabuada";
             tsmitabuada.Click += tsmitabuada_Click;
             // 
+            // tsmifc
+            // 
+            tsmifc.Name = "tsmifc";
+            tsmifc.Size = new Size(255, 22);
+            tsmifc.Text = "F para c (10 em 10)";
+            tsmifc.Click += tsmifc_Click;
+            // 
             // sairToolStripMenuItem
             // 
             sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -162,12 +170,12 @@
             sairToolStripMenuItem.Text = "Sair";
             sairToolStripMenuItem.Click += sairToolStripMenuItem_Click;
             // 
-            // tsmifc
+            // tsmiareares
             // 
-            tsmifc.Name = "tsmifc";
-            tsmifc.Size = new Size(255, 22);
-            tsmifc.Text = "F para c (10 em 10)";
-            tsmifc.Click += tsmifc_Click;
+            tsmiareares.Name = "tsmiareares";
+            tsmiareares.Size = new Size(255, 22);
+            tsmiareares.Text = "Área residência";
+            tsmiareares.Click += tsmiareares_Click;
             // 
             // frmmenu
             // 
@@ -206,5 +214,6 @@
         private ToolStripMenuItem tsmiimc;
         private ToolStripMenuItem tsmitabuada;
         private ToolStripMenuItem tsmifc;
+        private ToolStripMenuItem tsmiareares;
     }
 }

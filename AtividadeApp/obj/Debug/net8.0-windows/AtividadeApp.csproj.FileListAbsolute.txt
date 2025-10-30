@@ -166,3 +166,4 @@ C:\Users\bruno\Desktop\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\Ativid
 C:\Users\bruno\Desktop\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.genruntimeconfig.cache
 C:\Users\bruno\Desktop\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\ref\AtividadeApp.dll
 C:\Users\bruno\Desktop\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.frmfc.resources
+C:\Users\bruno\Desktop\AtividadeApp\AtividadeApp\obj\Debug\net8.0-windows\AtividadeApp.frmar.resources

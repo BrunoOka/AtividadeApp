@@ -126,5 +126,12 @@ namespace AtividadeApp
             frmfc fc = new frmfc();
             fc.Show();
         }
+
+        private void tsmiareares_Click(object sender, EventArgs e)
+        {
+            Hide();
+            frmar ar = new frmar();
+            ar.Show();
+        }
     }
 }
